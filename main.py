@@ -47,7 +47,7 @@ async def message_handler(event):
 
 **Please Join Our Updates Channel To Use Me ✅**
 
-**Click Here To To Join👇👇**''', buttons=Button.url('👉Updates Channel👈', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
+**Click Here To Join👇👇**''', buttons=Button.url('👉Updates Channel👈', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
             return await haha.delete()
 
