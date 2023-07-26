@@ -9,7 +9,7 @@ class Config(object):
     API_HASH = os.getenv("API_HASH", "4dc67e36a4ff40307ee2794b623d44d5")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "6000504420:AAF2Nx-eiRMy-OCWMTTQD0T6Hb5EJuio5r4")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKsBu6cMeO9sbii2EK4Yc84ybFC-HDGXh4CEId0Tpl9evF5pSuqH1p-h8S5lBAxlvpdJOhENwmfUherAIqcl5rhYC4IckdJkycdhayWuxL_TJpqTi-ZwFqL2Alz7YYjUZ71ZAIiXwYutPlj-nWH787nVLr3-3q3Qu9Ltj_74C13IWy6rx25HFHG9TYJtc6fj7PsqiYqNakRlzvUe3kv8Eem_AkA09EjgrB4BHzxTqS0PJIqOG759dBvWbS5HcXvyytabDT-5Kk6ugjiVn7a4cdHtc2kQfheTlzoeX2h-vkaZWSgvbeCIW_Iw1j0bEWSU4_dQMofPVuL4rAEm45XLuPja7zM=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOH0Bu36qlRHzE5hnfZK2j6rdsZh100nPHk7dt4O8VW56XguDsBVwHNfISi8LvZbECQHYJE9N97Iztftc2nbWcQTfqfkk2-lScgKPTlqwNSBzc43wBFxJXWr2a1tg3dy6iDkmIr-5rRgxGAI6uNsi7NIfXarnUbqdYdvJ3UJ887Q8A8c7ceC_urlncJni4ll1JyrCLGYIHzIoEdQnfHJyPVuxSoxXj3IX_Pp1U2eaLLGqfqPpA4GByJCvSH6IK5lJamBYVV_ZQObH7Z8Mc5w3-jIIuJ0Q29NqIOczkCsQntsCJi2-AbmkTfjbobhZMz4bLy1_0hU0NF10HJlFyw2h6kiPDF4=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001660035044")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "doraemonsearchrobot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5305304520"))
