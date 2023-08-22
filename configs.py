@@ -10,11 +10,11 @@ class Config(object):
     BOT_TOKEN = os.getenv("BOT_TOKEN", "6000504420:AAF2Nx-eiRMy-OCWMTTQD0T6Hb5EJuio5r4")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOJgBu6bVtINBzbBTIvBd2qsZpYpKq-C7CDs5ViZE619N0A7_AQIOoKuAqjTjG9qwifQcAEWoPFHhMvwPVyHeaGdT2aGKyS0MtFhcXnsj-cWUpDtUWYY0Njg5oUY5P3KbzFpMSA8ngPzIJT02x6XJKR5wCyCI3YLP4OsUd3syi1-eqH5dGva_ZEPxSM1tpSVVEZ1jQPTbONCDRzKMsMqR1t9zVCNR7j0kwL851IljkYoOLwteni7MH6kG_v9mHyBuNFwHypgxongrJBBdA7wETp_jUjExzJ3xhNvF5taUVDOYeBGx2XVOPMiBJf1E65Aifel__H543TTelxIn-uRwaL4jVPA=")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001660035044")) 
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001537517902")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "doraemonsearchrobot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5305304520"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "misssunknown")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "directfilemovieflix")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "atozmoviesupdates")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
@@ -29,12 +29,12 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001823840245")
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001945745923")
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://pushparaj123:pushparaj123@cluster0.cr9rxb2.mongodb.net/?retryWrites=true&w=majority")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001926755724"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "directfilemovieflix")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "atozmoviesupdates")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 300))
     MDISK_API = os.getenv("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
