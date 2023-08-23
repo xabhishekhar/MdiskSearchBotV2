@@ -5,11 +5,11 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "20982929"))
-    API_HASH = os.getenv("API_HASH", "dbcf605eec8a5cdd687e8aecb3010aa9")
+    API_ID = int(os.getenv("API_ID", "18056417"))
+    API_HASH = os.getenv("API_HASH", "7f1b148347fdee086ee2f1355cc79517")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "6415413316:AAEKLDM1kUPaTG-UoYzz9K78m277z6WUs44")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOHkBu3WYltZWeoXRZf_KRZi2PGhmATYW4p-0pFDTzrFxE0pNkXjPMdSfEmHWM6bS3fMTkRUvKONBVf--bW3Gz3vksho5P2qRKG0NFzdBiNJmpXvN4oFQGz6BQa72i40V8-U3CIGureYW3JQ-7iC-Hf4Zx_vZt1lyOTqonNmRwdEb4puV9Z_XikQ_PqyzxtGHElqx3OySAdh_xD0_IJNVr_g1W2DyP6gFpAzIqGAx5Yr4V5BXv5IJ7N8sxkYTlMuAU_sW5aTPHoeFgavHXbj6CpWb3RS9OQcxPtimz7XXuLXiUAs4sCMi_Q8w0zGGYXs1lntI5MQzIOYKSINac01HenYGpjE=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOHkBu1MAkhhXP-QcrgeULXxbmXeR-9Cy6UtqrDvnHkktA-bZ42gNA-ubQG7GMvwtw2u4fZ9yvYncp8EIPAxL-GCnRWMsItHu1qxlI0zAJdjmB-l8anEU9GXYOdAT5n8OBpsxcbqTNpAS7lNgcIiGgvwtMguTldgNpMm3PzZQuUd_7WTyuS51qSSfGJRQdkkuNqWE_vFrBXFKqDeG-JtoVlFHKTONgQO75su2ZVBvR82CbvFuv_vk-4fiLs7F7y4a5cuR8hijbwm7Yq1grs8MR_HyVsAK4YIkrWbuhjmhfc9JD1W9FsFMUGjTJSZlrTmyuR46TbM87NYyIAcyruQt6Eh8C2I=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001537517902")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "DoraemonMoviesBot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "6590646342"))
