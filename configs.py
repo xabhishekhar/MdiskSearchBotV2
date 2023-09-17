@@ -10,7 +10,7 @@ class Config(object):
     BOT_TOKEN = os.getenv("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001537517902")) 
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001903344150")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "DoraemonMoviesBot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "6590646342"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Shonagupta99")
