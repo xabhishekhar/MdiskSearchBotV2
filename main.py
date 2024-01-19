@@ -17,7 +17,7 @@ client = TelegramClient(StringSession( Config.USER_SESSION_STRING), Config.API_I
 
 
 async def get_user_join(id):
-    if Config.FORCE_SUB == "True":
+    if Config.FORCE_SUB == "False":
         return True
 
     ok = True
@@ -45,9 +45,9 @@ async def message_handler(event):
         if  not await get_user_join(event.sender_id):
             haha = await event.reply(f'''**Hey! {event.sender.first_name} 😃**
 
-**Please Join Our Updates Channel To Use Me ✅**
+**You Have To Join Our Update Channel To Use Me ✅**
 
-**Click Here To Join👇👇**''', buttons=Button.url('👉Updates Channel👈', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
+**Click Below Button To Join Now.👇🏻**''', buttons=Button.url('🍿Updates Channel🍿', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
             return await haha.delete()
 
@@ -60,7 +60,7 @@ async def message_handler(event):
         if not args:
             return
 
-        txt = await event.reply('**Ruko zara sabar karo 😂 "{}" 🔍**'.format(event.text))
+        txt = await event.reply('**Printing Links For "{}" 🔍**'.format(event.text))
 
 
 
@@ -105,11 +105,11 @@ async def message_handler(event):
             answer = f'''** Sorry {event.sender.first_name} No Results Found For {event.text}**
 
 **Please check the spelling on** [Google](http://www.google.com/search?q={event.text.replace(' ', '%20')}%20Movie) 🔍
-**Click On The Help To Know How To open link**
+**Click On The Help To Know How To Watch**
     '''
 
-            newbutton = [Button.url('Help',
-                                    f'https://t.me/howtoopen113')]
+            newbutton = [Button.url('Help🙋',
+                                    f'https://t.me/abhi_the_machinegun')]
 
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
@@ -131,8 +131,8 @@ async def message_handler(event):
         )
         message = f'**Click Here 👇 For "{event.text}"**\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}]({tgraph_result})'
 
-        newbutton = [Button.url('Link ko open Kaise kre❓',
-                                    f'https://t.me/howtoopen113')]
+        newbutton = [Button.url('How To Watch ❓',
+                                    f'https://t.me/postsearchbot?start=Watch')]
 
         await txt.delete()
         await asyncio.sleep(0.5)
@@ -144,7 +144,7 @@ async def message_handler(event):
     except Exception as e:
         print(e)
         await txt.delete()
-        result = await event.reply(" Firse search kro 🔍")
+        result = await event.reply("Please Search Again")
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
         await event.delete() 
         return await result.delete()
